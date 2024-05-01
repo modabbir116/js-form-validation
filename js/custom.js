@@ -73,3 +73,22 @@ button.addEventListener("click", function(e){
         }
     }
 })
+
+
+pass_icon.addEventListener("click", ()=>{
+    if(!input_pass.value){
+        pass_error.innerHTML = "please Password"
+        input_pass.style.border = "2px solid red"
+    }
+    else{
+        if (input_pass.type === "password") {
+            input_pass.type = "text";
+            pass_icon.classList.remove("fa-eye-slash");
+            pass_icon.classList.add("fa-eye");
+        } else {
+            input_pass.type = "password";
+            pass_icon.classList.remove("fa-eye");
+            pass_icon.classList.add("fa-eye-slash");
+        }
+    }
+})
