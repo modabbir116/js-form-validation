@@ -64,5 +64,29 @@
    border-radius: 5px;
    cursor: pointer;
    background-color: #2F539B;
+   width: 100%;
+}
+.form_group p{
+    color: red;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+}
+.form_group{
+    position: relative;
+}
+.pass_box {
+    position: relative;
+}
+.pass_box .pass_icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
 }
 /*======= form_validation part end   here  =======*/

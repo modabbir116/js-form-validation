@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- google fonts link here  -->
+    <!-- font awesome link here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome link here  -->
     <!-- css all link start here -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- css all link end here -->
@@ -24,15 +27,21 @@
                 <p class="name_error"></p>
             </div>
             <div class="form_group">
-                <input id="input_email" type="email" placeholder="Enter Your Email">
+                <input id="input_email" type="email" placeholder="Enter Your Email" autocomplete="username">
                 <p class="email_error"></p>
             </div>
-            <div class="form_group">
-                <input id="input_pass" type="password" placeholder="password">
+            <div class="form_group pass_box">
+                <input id="input_pass" type="password" placeholder="password" autocomplete="new-password">
+                <div class="pass_icon">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
                 <p class="pass_error"></p>
             </div>
-            <div class="form_group">
-                <input id="input_con_pass" type="password" placeholder="Confirm password">
+            <div class="form_group pass_box">
+                <input id="input_con_pass" type="password" placeholder="Confirm password" autocomplete="new-password">
+                <div class="pass_icon">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
                  <p class="con_pass_error"></p>   
             </div>
             <div class="form_group">
