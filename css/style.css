@@ -1,0 +1,68 @@
+/*======= form_validation part start here  =======*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form_validation{
+    background-color: #C0C0C0;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.form_validation h2{
+    color: #2F539B;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.form_validation form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.form_group input{
+    width: 100% !important;
+   outline: none;
+   border: 2px solid #2F539B;
+   padding: 12px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   font-size: 18px;
+   font-weight: 500;
+   color: #121212;
+   display: block;
+   
+}
+.form_group input::placeholder{
+   font-size: 18px;
+   font-weight: 500;
+   color: #757575;
+   text-transform: capitalize;
+}
+.form_group button{
+   font-size: 25px;
+   font-weight: 600;
+   color: #fff;
+   text-transform: capitalize;
+   outline: none;
+   border: none;
+   padding: 12px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: #2F539B;
+}
+/*======= form_validation part end   here  =======*/
