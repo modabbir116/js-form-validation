@@ -72,13 +72,10 @@
     font-size: 18px;
     font-weight: 400;
 }
-.form_group{
+.pass_box{
     position: relative;
 }
-.pass_box {
-    position: relative;
-}
-.pass_box .pass_icon{
+.pass_box .pass_icon i{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -88,5 +85,6 @@
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     cursor: pointer;
+    
 }
 /*======= form_validation part end   here  =======*/
